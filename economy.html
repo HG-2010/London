@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+
+
+<style>
+</style>
+
+
+
+<!-- wird als Beschreibung der Seite in der 
+Suchmaschine angezeigt -->
+<meta name="description" content="Infos zu London">
+
+<!-- Liste von Suchbegriffen, die man erwartet -->
+<meta name="keywords" content="London, Großbritanien, Hauptstadt, Hauptstadt von Großbritanien,">
+
+
+<!-- Du kannst ruhig Umlaute schreiben!-->
+<meta charset="utf-8">
+
+
+
+<!-- gibt der Seite einen Namen (Registerbezeichnung) -->
+<title>London, &copy; HG</title>
+</head>
+<body>
+<header id="oben">ECONOMY London, created by HG, 2025</header>
+<div id="startbild"></div>
+
+
+<div id="content">
+
+<nav>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="history.html">HISTORY</a></li>
+<li><a href="geography.html">GEOGRAPHY</a></li>
+<li><a href="economy.html">ECONOMY</a></li>
+<li><a href="sights.html">SIGHTS</a></li>
+
+</ul>
+</nav>
+
+<article>
+<h1>Economy</h1>
+
+
+
+
+<div class="slideshow-container">
+
+    <div class="slide fade">
+        <img src="images/london.jpg" alt="Bild 1">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london2.jpg" alt="Bild 2">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london3.jpg" alt="Bild 3">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london4.jpg" alt="Bild 4">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london5.jpg" alt="Bild 5">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london6.jpg" alt="Bild 6">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london7.jpg" alt="Bild 7">
+    </div>
+
+</div>
+
+<script>
+    let index = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slide");
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if (index > slides.length) {
+            index = 1;
+        }
+
+        slides[index - 1].style.display = "block";
+
+        setTimeout(showSlides, 3000);
+    }
+</script>
+
+
+
+
+
+<p> London is one of the world’s leading economic centers, driven by a diverse mix of finance, technology, tourism, and creative industries. The financial sector remains the strongest pillar of the city’s economy, with the City of London and Canary Wharf hosting major global banks, insurance companies, and investment firms. These institutions make London a key hub for international capital flows and financial innovation. 
+</p> 
+<p> Beyond finance, London has developed into a major European tech hotspot. Start-ups, digital companies, and research institutions thrive in areas like Shoreditch and King’s Cross, supported by a highly skilled workforce and strong universities. The creative industries—film, fashion, design, advertising, and media—also play a crucial role, giving London a global cultural influence. 
+</p> 
+
+<p> Tourism is another essential part of the economy. Millions of visitors come each year to see landmarks such as the Tower of London, Buckingham Palace, and the British Museum. This supports hotels, restaurants, theatres, and retail businesses across the city. The West End, famous for its theatre scene, generates significant cultural and economic value. </p> 
+
+<p> London’s global connectivity strengthens its economic position. With major airports like Heathrow and Gatwick, as well as extensive rail and transport networks, the city remains a key gateway for international trade and business. Despite challenges such as high living costs and the impact of Brexit, London continues to attract companies and talent from around the world. </p> 
+
+<p> Its combination of tradition, innovation, and global reach ensures that London remains one of the most dynamic and influential economic centers worldwide. </p>
+
+
+
+
+<p><i>This text was created with Microsoft Copilot</i></p>
+
+<p><a href="#oben">To the top!</a></p>
+
+</article>
+</div>
+
+
+
+<footer><a href="https://www.peraugymnasium.at/" target="_blank"><img src="images/schule.png"></a></footer>
+</body>
+</html>

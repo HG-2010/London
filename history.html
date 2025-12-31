@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+
+
+<style>
+</style>
+
+
+
+<!-- wird als Beschreibung der Seite in der 
+Suchmaschine angezeigt -->
+<meta name="description" content="Infos zu London">
+
+<!-- Liste von Suchbegriffen, die man erwartet -->
+<meta name="keywords" content="London, Großbritanien, Hauptstadt, Hauptstadt von Großbritanien,">
+
+
+<!-- Du kannst ruhig Umlaute schreiben!-->
+<meta charset="utf-8">
+
+
+
+<!-- gibt der Seite einen Namen (Registerbezeichnung) -->
+<title>London, &copy; HG</title>
+</head>
+<body>
+<header id="oben">HISTORY London, created by HG, 2025</header>
+<div id="startbild"></div>
+
+
+<div id="content">
+
+<nav>
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="history.html">HISTORY</a></li>
+<li><a href="geography.html">GEOGRAPHY</a></li>
+<li><a href="economy.html">ECONOMY</a></li>
+<li><a href="sights.html">SIGHTS</a></li>
+
+</ul>
+</nav>
+
+<article>
+<h1>History</h1>
+
+
+
+
+<div class="slideshow-container">
+
+    <div class="slide fade">
+        <img src="images/london.jpg" alt="Bild 1">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london2.jpg" alt="Bild 2">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london3.jpg" alt="Bild 3">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london4.jpg" alt="Bild 4">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london5.jpg" alt="Bild 5">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london6.jpg" alt="Bild 6">
+    </div>
+
+    <div class="slide fade">
+        <img src="images/london7.jpg" alt="Bild 7">
+    </div>
+
+</div>
+
+<script>
+    let index = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slide");
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        index++;
+        if (index > slides.length) {
+            index = 1;
+        }
+
+        slides[index - 1].style.display = "block";
+
+        setTimeout(showSlides, 3000);
+    }
+</script>
+
+
+
+
+
+<p>
+The history of London stretches back around 2,000 years and begins with the Roman foundation of the city. Around the year 50 AD, the Romans established the settlement of Londinium after conquering Britain. The city quickly developed into an important commercial and administrative center. However, in 61 AD, Londinium was almost completely destroyed when the Celtic queen Boudicca led a major uprising against the Roman occupation and burned the city to the ground. The Romans rebuilt Londinium, and it continued to grow over the following centuries until the Roman Empire collapsed in the early 5th century. Around 410 AD, Roman troops withdrew, and the city was largely abandoned, leaving only a small population behind for many years.
+</p>
+
+<p>
+It was not until the late 9th century that London was revived and once again became a significant trading hub. As early as the year 604, the first Christian church was built on the site where St. Paul’s Cathedral stands today. With the Norman conquest in 1066, the importance of London changed dramatically: William the Conqueror made the city the capital of the Kingdom of England, replacing Winchester. During the Middle Ages, London continued to grow but also faced difficult times. The city was plundered several times during peasant uprisings, and diseases such as the plague claimed many lives. Despite these hardships, London rose to become an increasingly important economic center.
+</p>
+
+<p>
+In the 16th century, the Reformation brought major changes. The power of the Church, which had previously owned about half of the land, was broken. The redistribution of church property led to economic growth, turning London into one of Europe’s leading trading cities. The population continued to rise, and by the year 1100, London had surpassed 10,000 inhabitants for the first time. Over the centuries, the city developed into a political, economic, and cultural center of great international significance. London endured fires, epidemics, and political upheavals, yet it continued to rebuild and reinvent itself. Eventually, it grew into one of the most influential and dynamic metropolises in the world.
+</p>
+
+
+
+
+<p><i>This text was created with Microsoft Copilot</i></p>
+
+<p><a href="#oben">To the top!</a></p>
+
+</article>
+</div>
+
+
+
+<footer><a href="https://www.peraugymnasium.at/" target="_blank"><img src="images/schule.png"></a></footer>
+</body>
+</html>
